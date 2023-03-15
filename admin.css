@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#full {
+    width: 100%;
+    height: auto;
+}
+
+
+.admin {
+
+    width: 20%;
+    line-height: 120px;
+    float: left;
+    font-weight: bold;
+
+}
+
+.admin h4 {
+
+    padding-left: 70px;
+    font-size: 25px;
+    font-size: 40px;
+
+}
+
+
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 160, 122, 0.6);
+
+}
+
+#nav {
+    width: 70%;
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    width: 14%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.main {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+a:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(228, 0, 0, 0.5);
+
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    background: url(4.jpg);
+}
+
+/*
+img{
+	width: 120px;
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	background: rgba(228,0, 0, 0.5);
+	
+}
+.slider{
+	width: 800px;
+	height: 400px;
+	background: url(4.jpg);
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(sp.jpg);
+    background-size: cover;
+
+
+}
+
+.upper {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(247, 188, 149, 0.6);
+
+
+}
+
+
+.admin {
+
+    width: 20%;
+    line-height: 120px;
+    float: left;
+    font-weight: bold;
+
+}
+
+.admin h4 {
+
+    padding-left: 70px;
+    font-size: 25px;
+    font-size: 40px;
+
+}
+
+.rightmenu {
+    line-height: 150px;
+    width: 80%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu ul {
+    margin-left: 150px;
+
+
+}
+
+
+.rightmenu ul li a {
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.cus {
+    color: black;
+}
+
+
+.rightmenu ul li:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+/*till now its for upper layer*/

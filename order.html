@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>Order</title>
+</head>
+<style>
+    .sb {
+
+        display: flex;
+        left: 30%;
+        width: 500px;
+        height: 25px;
+        color: rgb(95, 187, 199);
+
+    }
+
+    .sb1 {
+
+        width: 150px;
+        height: 40px;
+        background-color: aqua;
+
+    }
+
+    .sb2 {
+        margin-left: 10px;
+        width: 150px;
+        height: 40px;
+        background-color: aqua;
+    }
+
+    .sb1:hover {
+
+        width: 150px;
+        height: 40px;
+        background-color: darkcyan;
+
+    }
+
+    .sb2:hover {
+        background-color: darkcyan;
+        margin-left: 10px;
+        width: 150px;
+        height: 40px;
+
+    }
+</style>
+
+<body>
+    <form action="/action_page.php">
+        <link rel="stylesheet" type="text/css" href="order.css">
+        <div class="container">
+            <h1>Order Status</h1>
+
+            <label for="cid"><b>Customer Id</b></label><br>
+            <input type="text" placeholder="Enter Id" name="cid" required><br>
+
+            <label for="ordno"><b>Order No.</b></label><br>
+            <input type="text" placeholder="Enter Order number" name="ordno" required><br>
+
+            <label for="pnme"><b>Product Name</b></label><br>
+            <input type="text" placeholder="Enter product name" name="pnme" required><br>
+
+            <label for="quan"><b>Quantity </b></label><br>
+            <input type="number" placeholder="Quantity" name="quan" min="1" max="5000" required><br><br>
+
+            <label for="cst"><b>Cost estimated</b></label><br>
+            <input type="float" placeholder="Enter the cost" name="cst" required><br><br>
+
+            <label for="serv"><b>Service charges</b></label><br>
+            <input type="float" placeholder="Enter service charge" name="serv" required><br><br>
+
+            <label for="tran"><b>Transportation charge</b></label><br>
+            <input type="float" placeholder="Enter transp.charge" name="tran" required><br><br>
+
+            <label for="amnt"><b>Total Amount</b></label><br>
+            <input type="float" placeholder="Enter total amount" name="amnt" required><br><br>
+
+            <div class="sb">
+                <button class="sb1" type="submit" class="registerbtn">Submit</button>
+                <button class="sb2" type="submit" class="registerbtn">Reset</button>
+            </div>
+    </form>
+</body>
+
+</html>
